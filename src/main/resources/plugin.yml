@@ -1,0 +1,22 @@
+name: PlayerTeleportation
+main: io.github.slazurin.slplayerteleportation.SLPlayerTeleportation
+version: 1.0.1
+author: Azurin
+description: PlayerTeleportation Plugin.
+api-version: 1.16
+
+commands:
+  pp:
+    description: Teleport yourself to another player
+    permission: playerteleportation.pp
+    permission-message: You do not have permission to use this command.
+    usage: "Usage: /pp <player_name>"
+
+
+permissions:
+  playerteleportation.*:
+    default: op
+    children:
+      playerteleportation.pp:
+        default: true
+        description: Allows player to teleport to another player
