@@ -12,10 +12,10 @@ import java.awt.*;
 
 public class PlayerTeleportationCommands implements CommandExecutor {
 
-    private SLPlayerTeleportation plugin;
+    // private SLPlayerTeleportation plugin;
 
     public PlayerTeleportationCommands(SLPlayerTeleportation plugin) {
-        this.plugin = plugin;
+        // this.plugin = plugin;
     }
 
     @Override
